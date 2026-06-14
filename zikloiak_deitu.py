@@ -11,16 +11,6 @@ def xynthia_kalkulua():
 
 
 
-def zikloi_klaus():
-    bideagpt='klaus/GPT-2009-1-21_26.nc'
-    bidea2d='klaus/2D-2009-1-21_26.nc'
-    bidea3d='klaus/3D-2009-1-21_26.nc'
-    bideaep='klaus/EP-2009-1-21_26.nc'
-    bidea_excel="klaus/klaus stormtrack.xlsx"
-    emaitza_totala=nag.datuak_prozesatu(bideagpt,bidea2d,bidea3d,bideaep,bidea_excel,"Klaus 2009 (stormtrack)")
-    return emaitza_totala
-
-
 def zikloi_klaus_2():
     bideagpt='klaus/GPT-2009-1-21_26.nc'
     bidea2d='klaus/2D-2009-1-21_26.nc'
